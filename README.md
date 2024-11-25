@@ -1,4 +1,4 @@
-#Breast Cancer Detection - midterm project for ML Zoomcamp 2024 cohort
+# Breast Cancer Detection - midterm project for ML Zoomcamp 2024 cohort
 
 Breast cancer is a kind of cancer that begins as a growth of cells in the breast tissue.
 
@@ -10,12 +10,12 @@ Advances in breast cancer screening allow healthcare professionals to diagnose b
 
 This project aims to figure how Machine Learning can be used to predict if someone is dead or alive based on certain features and metrics.
 
-##Data used is Seer Breast Cancer Data - Labeled from Kaggle.com
+## Data used is Seer Breast Cancer Data - Labeled from Kaggle.com
 
 ---
 
 
-##Instructions on using the repo for prediction:
+## Instructions on using the repo for prediction:
 Build the image using: docker build <name> .
 
 This builds the <name> image using our dockerfile on top of some python image in our case svizor/...
@@ -28,6 +28,6 @@ This runs on gunicorn byt we can do it with waitress as well, you can run waitre
 
 Run preedict-test.py to send customer info to model in docker and interpret the result model outputs. The output is either Dead or Alive for the inputted patient.
 
+---
 
-
-###*Dockerfile includes instalations of all the necessary patches, we do not have pipenv file here. If you want you can use the environment.yml file as conda environment.*
+### *Dockerfile includes instalations of all the necessary patches, we do not have pipenv file here. If you want you can use the environment.yml file as conda environment.*
