@@ -12,7 +12,6 @@ This project aims to figure how Machine Learning can be used to predict if someo
 
 ## Data used is Seer Breast Cancer Data - Labeled from Kaggle.com
 
----
 
 
 ## Instructions on using the repo for prediction:
