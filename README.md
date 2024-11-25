@@ -10,7 +10,7 @@ Advances in breast cancer screening allow healthcare professionals to diagnose b
 
 This project aims to figure how Machine Learning can be used to predict if someone is dead or alive based on certain features and metrics.
 
-### Data used is Seer Breast Cancer Data - Labeled from Kaggle.com
+### Data used is 'Seer Breast Cancer Data - Labeled' from Kaggle.com
 
 ---
 
