@@ -15,7 +15,8 @@ This project aims to figure how Machine Learning can be used to predict if someo
 ---
 
 ## Instructions on using the repo for prediction:
-Notebook.ipnyb is for EDA and feature engineereing, training-models.ipnyb is for testing different models
+Notebook.ipynb is for EDA and feature engineereing, training-models.ipynb is for testing different models
+<br>
 Build the image using: 
 
 ```bash
