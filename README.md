@@ -31,9 +31,9 @@ docker run -it --rm -p 9696:9696 <name>
 
 9696:9696 part is for ports in and out explained in the video in deployment part of the course
 
-Then run predict-test.py in another prompt to send customer info to model in docker and interpret the result model outputs. The output is either Dead or Alive for the inputted patient. Feel free to edit the features patient (python dictionary) in the file to your needs
+Once container is up run predict-test.py in another prompt to send customer info to model in docker and interpret the result model outputs. The output is either Dead or Alive for the inputted patient. Feel free to edit the features of the patient (python dictionary) in the file to fit your needs.
 
 ---
 
 ### *Dockerfile includes installations of all the necessary libraries, we do not have pipenv file here. If you want you can use the environment.yml file as conda environment.*
-### *This runs on gunicorn but we can do it with waitress as well, you can run waitress-server.py and in seperate promt predict-test.py if you want to run it outside docker with waitress*
+### *This runs on gunicorn but we can do it with waitress as well, you can run waitress-server.py and in seperate prompt predict-test.py if you want to run it outside docker with waitress*
